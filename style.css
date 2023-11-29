@@ -49,6 +49,10 @@ header{
     height: 100px;
     z-index: 5;    
 }
+#menu_bar{
+    display:none;
+}
+
 .navbar{
     display:flex;
     justify-content: space-between;
@@ -203,7 +207,9 @@ child_contact form textarea:focus{
     background: transparent;
     color:#ffffff ;
 }
-<!------------------------FOOTER---------------------->
+
+/*---------------------FOOTER-------------------------- */
+
 #footer{
     background-color: #cccccc;
     box-shadow: 0px px 1px #cccccc;
