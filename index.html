@@ -1,38 +1,148 @@
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" 
-    content="width=device-width, initial-scale=1.0">
-    <title>Enhanced Personal Portfolio</title>
+    content="width=device-width, initial-scale=1.0"> 
+    <title>
+        Enhanced Personal Portfolio
+    </title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" 
+    integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+     <!-----HEADER------>
     <header>
-        <div class="logo-header">
-            <a href=""
-                <img src="" 
-                alt=""
-                title=""
-                >
-            </a>
-            
-        </div>
-        <nav class="top-menu-container">
-            <ul>
-                <li>
-                    <a href="">My Biography</a>
-                </li>
-                <li>
-                    <a href="">My Academic Interests and Hobbies</a>
-                </li>
-                <li>
-                    <a href="">My Future Goals</a>
-                </li>
-
-            </ul>
-
-        </nav>
+       <div class="navbar">
+           <div class="logo">
+            <h2> <a href="#"> Ibrahim Kaya </a></h2>
+           </div>
+           
+        <ul class="nav_links">
+            <li><a href="#home">Home</a> </li>
+            <li><a href="#academicinterests">Academic Interests</a> </li>
+            <li><a href="#biography">Biography</a> </li>
+            <li class="social_icons"> <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li> 
+                         
+        </ul>
+       </div>
     </header>
+    <!-----HOME------>
+    <section id="home">
+        <div class="section_title">
+            <h2>HOME</h2>
+        </div>
+        <div class="inner_home">
+            <div class="child_home">
+                <h1> <h1> <br> IT <br> ECONOMICS </h1>
+                     </h1>
+                <p> Do you need help in these areas?</p>
+                <button class="btn"> Send a message</button>
+            </div>
+            <div class="child_home">
+                <img src="./images/hero-banner.jpg" alt="">
+
+            </div>
+
+        </div>
+
+    </section>
     
+    <!-----ACADEMIC INTERESTS------>
+    <section id="academicinterests">
+        <div class="section_title">
+            <h2>ACADEMIC INTERESTS</h2>
+        </div>
+        <div class="inner_academicinterests">
+            <div class="child_academicinterests">
+                <h1> Academic help <br><span class="span_child"> in IT</span> <span class="span_child"> & ECONOMICS</span>   </h1>
+                <p> For more information, please keep contact with me below!</p>
+               
+            </div>
+            <div class="child_academicinterests">
+                <img src="./images/AcademicHelp.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+
+    <!------CONTACT FORM------->
+<section id="contact">
+<div class="section_title">
+<h2> CONTACT</h2>
+</div>
+<div class="inner_contact">
+    <div class="child_contact">
+     <img src="./images/contact.jpg" alt="">   
+    </div>
+    <div class="child_contact">
+        <form action="mailto:info@example.it" method="GET">
+            <input placeholder="Fullname" type="text" name="Fullname">
+            <input placeholder="E-mail" type="email" name="E-mail">
+            <textarea placeholder="Message" name="message" rows="10" cols="30"> </textarea>
+            <input type="submit" value="Send">
+          </form> 
+    </div>
+    
+</div>
+
+</section>
+
+     <!------FOOTER------->
+     <section id="footer">
+        <div class="section_title">
+            <h2>FOOTER</h2>
+        <footer class="footer">
+           <div class="container">
+            <div class="row">
+                <div class="col">
+                   <h4>Policy</h4>
+                   <ul>
+                    <li><a href="#"> About me</a> </li>
+                    <li><a href="#"> Privacy policy</a> </li>
+                    <li><a href="#"> Terms of service</a> </li>
+                   </ul> 
+                </div>
+                <div class="col">
+                    <h4>Contact me</h4>
+                    <ul>
+                        <li><a href="#"> Send E-mail</a> </li>
+                        <li><a href="#"> Call me!</a> </li>
+                    </ul> 
+                </div>
+                <div class="col">
+                    <h4>Follow me</h4>
+                    <div class="social_links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                   
+                 </div>
+
+                <div class="footer1">
+                
+                    <p>
+                        <p>Copyright @2023 .  All rights reserved
+                    </p>
+              
+                </div>
+            </div>
+           </div>
+        </footer>
+        
+
+     </section>
+   
+     
 </body>
 </html>
